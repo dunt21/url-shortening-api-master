@@ -1,5 +1,6 @@
 import logo from "../assets/logo.svg";
 import { BiMenu } from "react-icons/bi";
+import Button from "./Button";
 
 export default function Navbar() {
   const navItems = ["Features", "Pricing", "Resources"];
@@ -22,10 +23,8 @@ export default function Navbar() {
           <div className="space-y-6">
             <div className="border-[0.1px] border-gray-500"></div>
 
-            <p>
-              <a>Login</a>
-            </p>
-            <button>Sign up</button>
+            <a className="mb-6">Login</a>
+            <Button classname="w-full py-[0.7rem] mt-7">Sign up</Button>
           </div>
         </div>
       </div>
