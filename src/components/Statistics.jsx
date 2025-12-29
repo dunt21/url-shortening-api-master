@@ -32,7 +32,7 @@ export default function Statistics() {
 
           return (
             <>
-              <StatsList obj={obj} />
+              <StatsList obj={obj} key={i} />
 
               {middleCard && (
                 <>
